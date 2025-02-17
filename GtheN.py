@@ -15,9 +15,9 @@ while guess!=snumber:
         guess=int(input("Make a Guess--"))
         attempt+=1
         if guess>snumber:
-            print("Hmmm, too big to be true")
+            print("Hmmm, too big to be correct")
         elif guess<snumber:
-            print("hmmm, too small to be true")
+            print("hmmm, too small to be correct")
         else:
             print("Congratulations, you got it right!!!")
     except ValueError: print("Please enter a valid number!(p.s enter a number)") 
